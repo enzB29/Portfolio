@@ -11,6 +11,7 @@ Vous pouvez consulter mon portfolio en ligne ici : [Lien vers le site](https://e
 - HTML5
 - CSS3
 - JavaScript
+- EmailJS
 
 📂 Structure du projet
 
