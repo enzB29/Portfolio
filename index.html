@@ -11,127 +11,158 @@
         <div class="profile">
             
             <h1>Enzo Bordet</h1>
-            <p>Développeur</p>
+            <!-- <p>Développeur</p> -->
         </div>
         <nav>
             <ul>
                 <li><a href="#about">À propos</a></li>
                 <li><a href="#projects">Projets</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <button id="theme-switch" >
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z"/></svg>
+                  </button>
             </ul>
         </nav>
-        <button id="theme-switch">
-            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/></svg>
-            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z"/></svg>
-          </button>
+        
     </header>
+
+    
 
     
     
     <section id="about">
-        
-        
         <div class="profile-container">
             <h2 id="about-me">À propos de moi</h2><br><br>
-            <img src="./images/profil.jpg" alt="Ma Photo" class="profile-img">
-            <div class="profile-text">
-                <h1>Votre Nom</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Quisque sit amet odio nec libero tincidunt tincidunt. 
-                    Nulla facilisi. Vivamus euismod, nisl nec aliquet aliquam, 
-                    nunc nunc aliquet nunc, nec aliquet nunc nunc nec nunc.
-                </p>
-            </div>
             <div class="about-content">
-                <div class="soft-skills">
-                    <h3>Soft Skills</h3>
-                    <ul>
-                        <li>Communication</li>
-                        <li>Travail d'équipe</li>
-                        <li>Gestion du temps</li>
-                    </ul>
+                <img src="./images/profil.jpg" alt="Ma Photo" class="profile-img">
+                <div class="profile-text">
+                    <h1>Mon profil</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Quisque sit amet odio nec libero tincidunt tincidunt. 
+                        Nulla facilisi. Vivamus euismod, nisl nec aliquet aliquam, 
+                        nunc nunc aliquet nunc, nec aliquet nunc nunc nec nunc.
+                    </p>
                 </div>
-                <div class="hard-skills">
-                    <h3>Hard Skills</h3>
-                    <ul>
-                        <li>HTML/CSS</li>
-                        <li>JavaScript</li>
-                        <li>React</li>
-                    </ul>
-                </div>
-                
+            </div>
+            <div class="soft-skills">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Communication</li>
+                    <li>Travail d'équipe</li>
+                    <li>Gestion du temps</li>
+                </ul>
+            </div>
+            <div class="hard-skills">
+                <h3>Hard Skills</h3>
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                </ul>
             </div>
         </div>
-        
-        
         <p class="auto-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem ea dolorum quasi vitae. Neque, iusto iure sapiente unde saepe dolor dolore quos magnam voluptatibus sunt a incidunt expedita ipsa quaerat.</p>
     </section>
-    <a href="./images/CV_Enzo_Bordet.pdf" download class="cv-download">Télécharger mon CV</a>
+    
+        <button class="download-button" id="downloadCv">
+            <span class="download-button-content">Téléchager mon CV</span>
+        </button>
+          
+    
+    
 
     <section id="projects">
         <h2>Mes Projets</h2>
         <div class="project-grid">
             <!-- Projet 1 -->
             <div class="project">
-                <img src="project1.jpg" alt="Site Web Personnel">
-                <h3>Site Web Personnel</h3>
-                <p>Création d'un site web personnel pour présenter mes compétences et mes réalisations. Utilisation de HTML, CSS et JavaScript.</p>
+                <img src="./images/Ascii_Art.png" alt="Générateur ASCII Art en C++">
+                <h3>Générateur d'ASCII Art à partir d'une photo</h3>
+                <p>
+                    Développement en binôme d'un programme C++ permettant de convertir des images en noir et blanc en ASCII Art.
+                    Le rendu final est exporté dans un fichier texte, avec personnalisation via palettes de caractères et paramètres dynamiques.
+                    Un projet technique enrichissant qui m’a permis de renforcer mes compétences en C++ et en collaboration.
+                </p>
             </div>
+
     
             <!-- Projet 2 -->
             <div class="project">
-                <img src="project2.jpg" alt="Application de Gestion de Tâches">
-                <h3>Application de Gestion de Tâches</h3>
-                <p>Développement d'une application web pour gérer des tâches quotidiennes. Technologies utilisées : React et Firebase.</p>
+                <img src="./images/temperature.png" alt="Visualisation Réchauffement Climatique C++">
+                <h3>Visualisation du Réchauffement Climatique</h3>
+                <p>
+                    Analyse de données de température issues d’une station météo, visualisées grâce à un graphique généré en C++ avec la bibliothèque Libgraph2.
+                    Ce projet démontre l’évolution du climat à travers un traitement statistique rigoureux et une représentation personnalisée des données.
+                </p>
             </div>
+
     
             <!-- Projet 3 -->
             <div class="project">
-                <img src="project3.jpg" alt="Blog Technologique">
-                <h3>Blog Technologique</h3>
-                <p>Conception d'un blog technologique avec un système de gestion de contenu (CMS) personnalisé. Utilisation de Node.js et MongoDB.</p>
+                <img src="./images/Station_meteo.png" alt="Blog Technologique">
+                <h3>Analyse Climatique Multi-Stations</h3>
+                <p>
+                    Conception en C++ d’une série de fonctions modulaires permettant d’analyser le réchauffement climatique à partir de données météo de plusieurs stations.
+                    Projet libre orienté traitement de données, avec une forte dimension créative dans la conception des indicateurs d’analyse.
+                </p>
             </div>
     
             <!-- Projet 4 -->
             <div class="project">
-                <img src="project4.jpg" alt="Portfolio en Ligne">
-                <h3>Portfolio en Ligne</h3>
-                <p>Réalisation d'un portfolio interactif pour présenter mes projets. Animations CSS et intégration de JavaScript.</p>
+                <img src="./images/Tri.png" alt="Comparaison d'Algorithmes de Tri">
+                <h3>Comparaison d'Algorithmes de Tri</h3>
+                <p>
+                    Projet en C++ portant sur l’implémentation et la comparaison de plusieurs algorithmes de tri. Approche structurée avec une phase de recherche, de codage et d’analyse.
+                    Ce travail a permis de renforcer ma compréhension des performances algorithmiques et du raisonnement logique.
+                </p>
             </div>
+
     
             <!-- Projet 5 -->
             <div class="project">
-                <img src="project5.jpg" alt="Jeu en Ligne">
-                <h3>Jeu en Ligne</h3>
-                <p>Création d'un jeu en ligne multijoueur en temps réel. Technologies utilisées : Socket.io et Phaser.js.</p>
+                <img src="./images/The_Verdant_Sentinel.png" alt="The Verdant Sentinel - Jeu Unity">
+                <h3>The Verdant Sentinel</h3>
+                <p>
+                    Jeu vidéo de survie développé avec Unity en équipe de 6. Le joueur évolue dans un environnement sauvage et doit survivre face à des animaux aux comportements variés.
+                    Utilisation de GitHub, C# et développement d'IA pour les créatures. Un projet complet mêlant gameplay, design et travail d'équipe.
+                </p>
             </div>
+
     
             <!-- Projet 6 -->
             <div class="project">
-                <img src="project6.jpg" alt="Application Météo">
-                <h3>Application Météo</h3>
-                <p>Développement d'une application météo utilisant une API pour afficher les prévisions en temps réel. Technologies : React et OpenWeatherMap API.</p>
+                <img src="./images/La_Sabletine.png" alt="Site web Gîte La Sabletine">
+                <h3>Site Internet – Gîte La Sabletine</h3>
+                <p>
+                    Développement complet d’un site vitrine responsive pour un gîte situé en Provence, permettant de présenter le logement, les tarifs, les informations de contact et de gérer les demandes de réservation.
+                    Le front-end est réalisé avec <strong>React</strong> et <strong>React Router</strong> pour une navigation fluide, avec une interface utilisateur moderne conçue en <strong>CSS3</strong>.
+                    Le site communique avec une <strong>API REST</strong> développée en <strong>Java (Spring Boot)</strong> pour la gestion des données (tarifs, disponibilités, messages, etc.). 
+                    L’ensemble forme une application full-stack performante et entièrement personnalisée.
+                </p>
             </div>
+
+
         </div>
     </section>
+    <br><br><br><br>
 
     <section id="contact">
-        <h2>Contactez-moi</h2>
-        <form action="mailto:tonemail@example.com" method="post" enctype="text/plain">
-            <label for="name">Nom:</label>
-            <input type="text" id="name" name="name" required>
-    
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-    
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-    
-            <button type="submit">Envoyer</button>
+        
+        <form id="contact-form" class="form">
+            <h2>Contactez-moi</h2>
+            <input type="text" id="name" name="name" class="input" placeholder="Name :" required>
+            <input type="email" id="email" name="email" class="input" placeholder="Email :" required>
+            <textarea id="message" name="message" class="input" placeholder="Message :" required></textarea>
+            <button type="submit" class="download-button">
+                <span class="download-button-content">Envoyer</span>
+            </button>
         </form>
     </section>
+    <br><br><br><br>
 
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="portfolio_script.js"></script>
 </body>
 </html>
